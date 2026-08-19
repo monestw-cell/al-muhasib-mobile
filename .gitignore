@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Expo
+.expo/
+web-build/
+
+# Native builds & outputs
+*.apk
+*.aab
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+ios/build/
+ios/Pods/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS Clutter
+.DS_Store
+Thumbs.db
